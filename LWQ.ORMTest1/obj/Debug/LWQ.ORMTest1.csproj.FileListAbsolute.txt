@@ -1,0 +1,10 @@
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.ORMTest1.exe.config
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.ORMTest1.exe
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.ORMTest1.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.DAL.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.Model.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.DAL.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.Model.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.csprojResolveAssemblyReference.cache
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.exe
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.pdb
