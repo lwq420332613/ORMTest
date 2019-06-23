@@ -8,3 +8,5 @@ D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.Model.pdb
 D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.csprojResolveAssemblyReference.cache
 D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.exe
 D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\obj\Debug\LWQ.ORMTest1.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.Framework.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.ORMTest1\bin\Debug\LWQ.Framework.pdb

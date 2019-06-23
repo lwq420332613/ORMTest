@@ -3,3 +3,5 @@ D:\MyTest\LWQ.ORMTest1\LWQ.Model\bin\Debug\LWQ.Model.pdb
 D:\MyTest\LWQ.ORMTest1\LWQ.Model\obj\Debug\LWQ.Model.csprojResolveAssemblyReference.cache
 D:\MyTest\LWQ.ORMTest1\LWQ.Model\obj\Debug\LWQ.Model.dll
 D:\MyTest\LWQ.ORMTest1\LWQ.Model\obj\Debug\LWQ.Model.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.Model\bin\Debug\LWQ.Framework.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.Model\bin\Debug\LWQ.Framework.pdb

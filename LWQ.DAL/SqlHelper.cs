@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
+using LWQ.Framework;
 
 namespace LWQ.DAL
 {
@@ -13,8 +14,9 @@ namespace LWQ.DAL
         public T Get<T>(int id)
         {
             Type type = typeof(T);
-            string columnsString = string.Join(",",type.GetProperties().Select(x => $"[{x.Name}]")); 
-            string sql = $@"SELECT {columnsString} FROM [{type.Name}] WHERE Id = {id}";
+            string columnsString = string.Join(",",type.GetProperties().Select(x => $"[{x.GetMappingName()}]")); 
+            //string sql = $@"SELECT {columnsString} FROM [{type.Name}] WHERE Id = {id}";
+            string sql = $@"SELECT {columnsString} FROM [{type.GetMappingName()}] WHERE Id = {id}";
             using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
             {
                 SqlCommand command = new SqlCommand(sql, sqlConnection);
@@ -25,22 +27,20 @@ namespace LWQ.DAL
                     T t = (T)Activator.CreateInstance(type);
                     foreach (var prop in type.GetProperties())
                     {
-                        prop.SetValue(t,reader[prop.Name] is DBNull ? null:reader[prop.Name]);
+                        prop.SetValue(t,reader[prop.GetMappingName()] is DBNull ? null:reader[prop.GetMappingName()]);
                     }
                     return t;
                 }
-                else
-                {
-                    return default(T);
-                }
+                return default(T);
             }
         }
 
         public List<T> GetAll<T>()
         {
             Type type = typeof(T);
-            string columnsString = string.Join(",", type.GetProperties().Select(x => $"[{x.Name}]"));
-            string sql = $@"SELECT {columnsString} FROM [{type.Name}]";
+            string columnsString = string.Join(",", type.GetProperties().Select(x => $"[{x.GetMappingName()}]"));
+            //string sql = $@"SELECT {columnsString} FROM [{type.Name}]";
+            string sql = $@"SELECT {columnsString} FROM [{type.GetMappingName()}]";
             using (SqlConnection conn = new SqlConnection(ConnectionString))
             {
                 SqlCommand command = new SqlCommand(sql,conn);
@@ -52,7 +52,7 @@ namespace LWQ.DAL
                     T t = (T)Activator.CreateInstance(type);
                     foreach (var prop in type.GetProperties())
                     {
-                        prop.SetValue(t, reader[prop.Name] is DBNull ? null : reader[prop.Name]);
+                        prop.SetValue(t, reader[prop.GetMappingName()] is DBNull ? null : reader[prop.GetMappingName()]);
                     }
                     list.Add(t);
                 }

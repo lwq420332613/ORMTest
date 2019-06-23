@@ -1,0 +1,4 @@
+D:\MyTest\LWQ.ORMTest1\LWQ.Framework\bin\Debug\LWQ.Framework.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.Framework\bin\Debug\LWQ.Framework.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.Framework\obj\Debug\LWQ.Framework.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.Framework\obj\Debug\LWQ.Framework.pdb

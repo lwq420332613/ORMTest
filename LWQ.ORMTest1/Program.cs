@@ -10,6 +10,11 @@ namespace LWQ.ORMTest1
 {
     public class Program
     {
+        /// <summary>
+        /// 1.从Ado.Net到通用数据库访问层
+        /// 2.泛型+反射+Ado.Net完成通用主键查询&全表查询
+        /// 3.通过特性Attribute完成映射
+        /// </summary>
         static void Main(string[] args)
         {
             try
@@ -17,6 +22,7 @@ namespace LWQ.ORMTest1
                 SqlHelper helper = new SqlHelper();
                 //UserInfo user = helper.Get<UserInfo>(1);
                 //Company company = helper.Get<Company>(6);
+                helper.Get<UserInfoModel>(1);
                 helper.GetAll<Company>();
             }
             catch (Exception e)

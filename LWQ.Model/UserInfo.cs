@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LWQ.Framework;
 
 namespace LWQ.Model
 {
-    public class UserInfo:BaseModel 
+    [Table("UserInfo")]
+    public class UserInfoModel:BaseModel 
     {
         public string UserName { get; set; }
 
@@ -16,6 +18,7 @@ namespace LWQ.Model
 
         public string Telephone { get; set; }
 
-        public int Status { get; set; }
+        [Column("Status")]
+        public int State { get; set; }
     }
 }

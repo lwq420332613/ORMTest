@@ -5,3 +5,5 @@ D:\MyTest\LWQ.ORMTest1\LWQ.DAL\bin\Debug\NuGet.Core.dll
 D:\MyTest\LWQ.ORMTest1\LWQ.DAL\obj\Debug\LWQ.DAL.csprojResolveAssemblyReference.cache
 D:\MyTest\LWQ.ORMTest1\LWQ.DAL\obj\Debug\LWQ.DAL.dll
 D:\MyTest\LWQ.ORMTest1\LWQ.DAL\obj\Debug\LWQ.DAL.pdb
+D:\MyTest\LWQ.ORMTest1\LWQ.DAL\bin\Debug\LWQ.Framework.dll
+D:\MyTest\LWQ.ORMTest1\LWQ.DAL\bin\Debug\LWQ.Framework.pdb
